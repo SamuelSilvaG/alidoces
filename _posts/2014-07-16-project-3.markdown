@@ -1,0 +1,13 @@
+---
+layout: default
+titulo: Bolo de Cenoura
+modal-id: Bolo-de-Cenoura
+date: 2017-07-27
+img: cake.png
+alt: image-alt
+project-date: Julho 2017
+client: Alidoces
+category: Bolos
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt erat sit amet orci pellentesque, in sagittis turpis sollicitudin. Donec lobortis quis dolor non ultricies. Fusce enim leo, porttitor ut magna in, placerat placerat lacus. Pellentesque malesuada ligula sed augue ultrices, in faucibus dolor interdum. Aliquam accumsan orci
+
+---
