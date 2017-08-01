@@ -1,0 +1,8 @@
+<center>
+<iframe id="invoiceIFrame" width="100%" height="1200" style="max-width:1000px"></iframe>
+<center>
+<script language="javascript">
+var iframe = document.getElementById('invoiceIFrame');
+iframe.src = 'https://vendas.alidocesoficial.com:8080/view/'
+             + window.location.search.substring(1, 33);
+</script>
