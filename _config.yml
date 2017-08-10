@@ -63,15 +63,15 @@ ctaimagem: bg-cta.jpg
 # Você pode somente colocar 6  fotos, nada mais que isso. As imagens estão em img/bolos/
 # Coloque o nome das imagens que deseja, e coloque uma descrição, se não quiser deixe em branco.
 portifoilio:
-  - imagem: IMG(1).JPG
+  - imagem: IMG(1).jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(2).JPG
+  - imagem: IMG(2).jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(3).JPG
+  - imagem: IMG(3).jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(4).JPG
+  - imagem: IMG(4).jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(5).JPG
+  - imagem: IMG(5).jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(6).JPG
+  - imagem: IMG(6).jpg
     sobre: Bolo de Alguma coisa
