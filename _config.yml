@@ -1,44 +1,77 @@
-# Site settings
-title: Alidoces
-email: seuemail@alidoces.com
-url:  http://alidocesoficial.github.io
-baseurl: /
-description: "Portfólio da Alidoces"
-keywords: "Bolos, Doces, Alidoces"
-meta_author: Alidoces
+# [+] --------------------------------- CONFIGURAÇÕES GERAIS --------------------------------- [+] 
 
 
-color:
-  primary: ED5565 
-  primary-rgb: "216, 51, 74, 0.75" 
-  secondary: D8334A 
-  secondary-dark: rgba(0, 0, 0, 0.09)
+#Configurações do site.
+title: Alidoces Oficial
+email: contato@alidocesoficial.com
+description: Um pouco mais sobre a Alidoces Oficial.
+baseurl: ""
+url: "https://alidocesoficial.github.io"
 
-
-footer:
-  copyright: Alidoces
-  localizacao: Localização
-  social: Redes Sociais
-  creditos: Creditos
-
-
+# Redes sociais
 social:
   - title: twitter
-    url: 
+    url: https://twitter.com/alidocesoficial
   - title: facebook
-    url:
+    url: https://fb.me/alidocesoficial
   - title: instagram
-    url: 
+    url: https://www.instagram.com/alidocesoficial/
 
+# Conda do disqus para os comentários do blog
+disqus_account: 
 
-address:
-  - line: Rua José Luís de Jesus, 52
-  - line: Osasco - SP
-  - line: Brasil
+# Informações do Google Analytics
+data-ad-slot: 
+data-ad-client: 
+google_ad_client: 
 
+google_analytics: ""
+addthis_id: 
 
-credits: 'Desenvolvido por <a href="http://andreyglauzer.com">Andrey Glauzer</a>, usando Jekyll.'
-
-
+# APPS que eu utilizo, não tem necessidade alterar essas informações.
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+gems: [jekyll-paginate, jekyll-feed]
+
+# [+] ------------------------------- CONFIGURAÇÕES SOBRE  ----------------------------- [+]
+
+# Aqui é as configurações do sobre, cada "p-sobre" é uma qubra de linha, então você pode organizar 
+# o texto da maneira que desea
+sobre:
+  - p-sobre: Olá, tudo bem? Se você está aqui eu aposto que é porque já provou uma das guloseimas feitas pela mamãe. Não é mesmo? E por falar em provar, você já provou o Bolo de Sensação? Ele é o meu preferido! 
+  - p-sobre: Aposto que vai se apaixonar! Alidoces cresceu no coração da mamãe enquanto ela se dedicava ao meu crescimento.Depois que eu vim fazer parte deste mundo, o papai saía para trabalhar e a mamãe escolheu ficar bem pertinho de mim. Ela que já havia sido auxiliar de produção e balconista em supermercado, descobriu seus dotes quando deixou de ser auxiliar de panificação para ser confeiteira.
+  - p-sobre: Todos elogiavam as tortas, os bolos e os pães que mamãe fazia no supermercado. Com o meu crescimento, dentro do nosso lar crescia outro sonho, chamado Alidoces, e cá estamos nós, mamãe hoje é formada em técnica em nutrição; nossos bolos no pote são a especialidade da casa; junto à mamãe, papai e eu damos um gostinho todo especial desde a montagem até o momento entrega dos bolos e isso têm nos feito muito felizes!
+
+
+# [+] ---------------------------- CONFIGURAÇÕES DE IMAGENS  --------------------------- [+]
+
+# Caso você queria mudar a foto de fundo da página principal, onde está escrito Alidoces Oficial.
+# Você precisa apenas colocar o nome da imagem, e colocar a imagem que deseja no diretorio correto.
+
+headerprincipal: gb-principal.png
+
+# Aqui você pode alterar a imagem que esta as faturas
+ctaimagem: bg-cta.jpg
+
+
+# [+] ---------------------------- CONFIGURAÇÕES DE PORTIFOLIO  ------------------------ [+] 
+
+# Aqui é as configurações do portifolio
+# Você pode somente colocar 6  fotos, nada mais que isso. As imagens estão em img/bolos/
+# Coloque o nome das imagens que deseja, e coloque uma descrição, se não quiser deixe em branco.
+portifoilio:
+  - imagem: IMG_2514.JPG
+    sobre: Bolo de Alguma coisa
+  - imagem: IMG_2504.JPG
+    sobre: Bolo de Alguma coisa
+  - imagem: IMG_2507.JPG
+    sobre: Bolo de Alguma coisa
+  - imagem: IMG_2533.JPG
+    sobre: Bolo de Alguma coisa
+  - imagem: IMG_2548.JPG
+    sobre: Bolo de Alguma coisa
+  - imagem: IMG_2559.JPG
+    sobre: Bolo de Alguma coisa
