@@ -3,7 +3,7 @@
 
 #Configurações do site.
 title: Alidoces Oficial
-email: contato@alidocesoficial.com
+email: vendas@alidocesoficial.com
 description: Um pouco mais sobre a Alidoces Oficial.
 baseurl: ""
 url: "https://alidocesoficial.github.io"
@@ -63,15 +63,15 @@ ctaimagem: bg-cta.jpg
 # Você pode somente colocar 6  fotos, nada mais que isso. As imagens estão em img/bolos/
 # Coloque o nome das imagens que deseja, e coloque uma descrição, se não quiser deixe em branco.
 portifoilio:
-  - imagem: IMG(1).jpg
+  - imagem: IMG1.jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(2).jpg
+  - imagem: IMG2.jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(3).jpg
+  - imagem: IMG3.jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(4).jpg
+  - imagem: IMG4.jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(5).jpg
+  - imagem: IMG5.jpg
     sobre: Bolo de Alguma coisa
-  - imagem: IMG(6).jpg
+  - imagem: IMG6.jpg
     sobre: Bolo de Alguma coisa
