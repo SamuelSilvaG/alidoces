@@ -42,7 +42,7 @@ gems: [jekyll-paginate, jekyll-feed]
 # o texto da maneira que desea
 sobre:
   - p-sobre: Olá, tudo bem? Se você está aqui eu aposto que é porque já provou uma das guloseimas feitas pela mamãe. Não é mesmo? E por falar em provar, você já provou o Bolo de Sensação? Ele é o meu preferido! 
-  - p-sobre: Aposto que vai se apaixonar! Alidoces cresceu no coração da mamãe enquanto ela se dedicava ao meu crescimento.Depois que eu vim fazer parte deste mundo, o papai saía para trabalhar e a mamãe escolheu ficar bem pertinho de mim. Ela que já havia sido auxiliar de produção e balconista em supermercado, descobriu seus dotes quando deixou de ser auxiliar de panificação para ser confeiteira.
+  - p-sobre: Aposto que vai se apaixonar! Alidoces cresceu no coração da mamãe enquanto ela se dedicava ao meu crescimento. Depois que eu vim fazer parte deste mundo, o papai saía para trabalhar e a mamãe escolheu ficar bem pertinho de mim. Ela que já havia sido auxiliar de produção e balconista em supermercado, descobriu seus dotes quando deixou de ser auxiliar de panificação para ser confeiteira.
   - p-sobre: Todos elogiavam as tortas, os bolos e os pães que mamãe fazia no supermercado. Com o meu crescimento, dentro do nosso lar crescia outro sonho, chamado Alidoces, e cá estamos nós, mamãe hoje é formada em técnica em nutrição; nossos bolos no pote são a especialidade da casa; junto à mamãe, papai e eu damos um gostinho todo especial desde a montagem até o momento entrega dos bolos e isso têm nos feito muito felizes!
 
 
@@ -64,14 +64,14 @@ ctaimagem: bg-cta.jpg
 # Coloque o nome das imagens que deseja, e coloque uma descrição, se não quiser deixe em branco.
 portifoilio:
   - imagem: IMG1.jpeg
-    sobre: Bolo de Alguma coisa
+    sobre: Bolo tema SKOL
   - imagem: IMG2.jpeg
-    sobre: Bolo de Alguma coisa
+    sobre: Bolo do primeiro ano da Alice
   - imagem: IMG6.jpeg
-    sobre: Bolo de Alguma coisa
+    sobre: Bolo dos 50 anos da Vovô
   - imagem: IMG4.jpeg
-    sobre: Bolo de Alguma coisa
+    sobre: Bolo do Batman
   - imagem: IMG5.jpeg
-    sobre: Bolo de Alguma coisa
+    sobre: Bolo da Elsa do filme Frozen
   - imagem: IMG3.jpeg
-    sobre: Bolo de Alguma coisa
+    sobre: Bolo da Minnie
