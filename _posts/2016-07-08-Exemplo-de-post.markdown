@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Post de Exemplo do blog"
-subtitle:   "Isso é apenas um exemplo."
-date:       2016-07-08 12:00:00
+title:      "Meu primeiro Post."
+subtitle:   "Curso de bolo no pote"
+date:       2017-08-10 09:00:00
 author:     "Alidoces"
 header-img: "img/blog/banner-bg.jpg"
 categories: Bolos
