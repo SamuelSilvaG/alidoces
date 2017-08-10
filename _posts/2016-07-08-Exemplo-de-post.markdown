@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Meu primeiro Post."
-subtitle:   "Curso de bolo no pote"
+title:      "Curso"
+subtitle:   "Bolo no pote com Estefano Zaquini"
 date:       2017-08-10 09:00:00
 author:     "Alidoces"
-header-img: "img/blog/banner-bg.jpg"
+header-img: "img/blog/post1-0.jpg"
 categories: Bolos
 ---
 
