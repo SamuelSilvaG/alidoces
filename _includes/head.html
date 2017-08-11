@@ -6,8 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta property="og:image" content="img/favicon.ico" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ site.baseurl }}/img/favicon.ico" type="image/x-icon">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap Core CSS -->
@@ -34,22 +34,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-    <!-- Google ADS mobile block -->
-    {% if site.google_ad_client %}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ site.google_ad_client }}",
-        enable_page_level_ads: true
-        });
-    </script>
-    {% endif %}
 
-    {% if site.addthis_id %}
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_id }}"></script>
-      {% endif %}
     <Link rel = "canonical" href = "https://www.alidocesoficial.com/github/pages/free-cloudflare-ssl-for-custom-domain/">
     <script>
     var host = "alidocesoficial.com";
