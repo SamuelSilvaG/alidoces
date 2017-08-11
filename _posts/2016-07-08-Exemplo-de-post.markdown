@@ -16,6 +16,6 @@ Foi um experiencia sensacional, técnicas, sabores, dicas e um bate papo que nã
 E que venham os outros cursos.
 
 # Abaixo frutos da nossa aula
-! [Foto1] (img/blog/post1-1.jpg)
+![Foto1](img/blog/post1-1.jpg)
 
-! [Foto2] (img/blog/post1-2.jpg)
+![Foto2](img/blog/post1-2.jpg)
