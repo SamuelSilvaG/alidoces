@@ -16,6 +16,5 @@ Foi um experiencia sensacional, técnicas, sabores, dicas e um bate papo que nã
 E que venham os outros cursos.
 
 # Abaixo frutos da nossa aula
-![Foto1](https://github.com/SamuelSilvaG/alidocesoficial.github.io/blob/master/img/blog/post1-1.jpg)
 
 ![Foto2](https://github.com/SamuelSilvaG/alidocesoficial.github.io/blob/master/img/blog/post1-2.jpg)
