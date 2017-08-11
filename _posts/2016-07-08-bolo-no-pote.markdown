@@ -16,4 +16,4 @@ E que venham os outros cursos.
 
 # Abaixo frutos da nossa aula
 
-![Foto2](https://github.com/SamuelSilvaG/alidocesoficial.github.io/blob/master/img/blog/post1-2.jpg)
+![Foto2](img/blog/post1-2.jpg)
