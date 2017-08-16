@@ -4,7 +4,7 @@ title: 		"Bolo no pote com Estefano Zaquini"
 subtitle:   "Bolo no pote com Estefano Zaquini"
 date:       2017-08-10 09:00:00
 author:     "Alidoces"
-header-img: "img/blog/post1-0.jpg"
+header-img: "img/blog/post1-2.jpg"
 categories: Bolos
 ---
 
@@ -17,4 +17,4 @@ E que venham os outros cursos.
 
 # Abaixo frutos da nossa aula
 
-![Foto]({{ site.baseurl }}/img/blog/post1-2.jpg)
+![Foto]({{ site.baseurl }}/img/blog/post1-0.jpg)
