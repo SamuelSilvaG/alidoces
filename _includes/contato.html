@@ -2,127 +2,52 @@
 <section id="contact" class="contact bg-primary">
     <div class="container">
         <h2>Entre em contato <i class="fa fa-heart"></i></h2>
-        <form id="contact_form" class="cf">
-  <div class='large-12 columns'>
-    <p id='thanks' style='display: none;'>
-      Oba! Obrigado por entrar em contato
-    </p>
-  </div>
-  <div class="half left cf medium-12 columns">
-     <input class='required' name='name' placeholder='NAME' type='text'>
-    <input class='required email' name='email' placeholder='EMAIL' type='text'>
-    <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-  </div>
-  <div class="half right cf">
-    <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-  </div>  
-  <input type="submit" class='button white' name="submit" id="enviar" value="Enviar" id="input-submit">
-</form>
-
-<script>
-$('form#contact_form').validate({
-  messages: { },
-  submitHandler: function(form) {
-    $.ajax({
-      url: "//formspree.io/nglauzer@gmail.com",
-      method: "POST",
-      data: $(form).serialize(),
-      dataType: "json",
-      success: function(data) {
-          $("form#contact_form :input").prop("disabled", true);
-          $('#thanks').show();
-      }
-    });
-    return false;
-  }
-});
-</script>
-<style type="text/css">
-form#contact_form {
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
-}
-form#contact_form input, form#contact_form textarea {
-  border: 0;
-  outline: 0;
-  padding: 1em;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  font-family: 'Merriweather', sans-serif;
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  resize: none;
-}
-form#contact_form input:focus, form#contact_form textarea:focus {
-  -moz-box-shadow: 0 0px 2px #e74c3c !important;
-  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
-  box-shadow: 0 0px 4px #8b8b8b !important;
-    background: #ff8e8a;
-}
-form#contact_form #input-submit {
-  color: white;
-  background: #e74c3c;
-  cursor: pointer;
-}
-form#contact_form #input-submit:hover {
-  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-}
-form#contact_form textarea {
-  height: 126px;
-}
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.right {
-  width: 50%;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
-}
-/* Clearfix */
-.cf:before,
-.cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.cf:after {
-  clear: both;
-}
-input.required {
-    background: rgb(255, 198, 197);
-}
-textarea.required {
-    background: rgb(255, 198, 197);
-}
-</style>
+        <ul class="list-inline list-social">
+            {% for social in site.social %}
+                <li>
+                    <a href="{{ social.url }}" target="_blank" class="btn-footer-2"><i class="fa iconsfooter fa-fw fa-{{ social.title }}"></i></a>
+                </li>                                   
+            {% endfor %}
+        </ul>
+        <h3>Telefone para contato: +55 (011) 98190-9548</h3>
     </div>
 </section>
+<div class="whatsapp">
+<a href="https://web.whatsapp.com/send?l=pt&phone=5511981909548&text=Gostaria%20de%20Informa%C3%A7%C3%B5es" class="whatsapp_1 float float-right float-floatingButtonCenter" style="background-color: #25d366;" target="_blank">
+<i class="whatsapp_1 fa fa-whatsapp whatsapp "></i>
+</a>
+</div>
 <footer>
     <div class="container">
         <p>&copy; 2017 tema por <a rel="nofollow" target="blank" href="https://startbootstrap.com/">Start Bootstrap</a> e <a target="_blank" rel="nofollow" href="https://jekyllrb.com/">Jekyll</a> feito por <a target="_blank" rel="nofollow" href="https://andreyglauzer.com">Andrey Glauzer</a>. Todos os direitos reservados.</p>
     </div>
 </footer>
+<style type="text/css">
+  .float-floatingButtonCenter {
+    top: 85%;
+    right: 9px;
+}
+.float-floatingButtonCenter {
+    top: 85%;
+    z-index: 9999999;
+    }
+    .float-right {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+i.whatsapp_1.fa.fa-whatsapp.whatsapp {
+    font-size: 4rem;
+    padding: 1rem;
+}
+i.whatsapp_1.fa.fa-whatsapp.whatsapp:hover {
+    color: rgba(255, 255, 255, 0.66);
+}
+</style>
