@@ -15,6 +15,6 @@ Foi um experiencia sensacional, técnicas, sabores, dicas e um bate papo que nã
 
 E que venham os outros cursos.
 
-# Abaixo frutos da nossa aula
+### Fotos com professor Estefano Zaquini
 
 ![Foto]({{ site.baseurl }}/img/blog/post1-0.jpg)
