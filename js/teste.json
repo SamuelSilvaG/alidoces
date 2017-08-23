@@ -1,0 +1,18 @@
+---
+---
+[  {% for galeria in site.galeria %}
+  {
+    "title": "Galeria",
+    "width": 400,
+    "height": 300,
+    "images": {
+      "hidpi": null,
+      "normal": "{{ galeria.img }}",
+      "teaser": "{{ galeria.img }}"
+    }
+
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+
+]
+

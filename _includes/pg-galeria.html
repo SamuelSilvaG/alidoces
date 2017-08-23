@@ -1,0 +1,163 @@
+<div id="galeria">
+	<script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+
+	<ul class="gallery"></ul>
+
+	<div class="lightbox" >
+	  <figure></figure>
+	</div>
+	 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</div>
+
+
+<style type="text/css">
+#galeria *, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#galeria img {
+  vertical-align: bottom;
+}
+
+#galeria .gallery {
+  overflow: hidden;
+  *zoom: 1;
+  width: 650px;
+  margin: 100px auto;
+  overflow: hidden;
+}
+#galeria .gallery:hover > li {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+#galeria .gallery li {
+  position: relative;
+  background: #FFFFFF;
+  float: left;
+  margin: 0 25px 25px 0;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  width: 200px
+}
+#galeria .gallery li img {
+  backface-visibility: hidden;
+  transition: all .2s ease-in-out;
+  width: 200px;
+}
+#galeria .gallery li img:hover {
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+#galeria .gallery li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
+#galeria .gallery li:hover > li {
+  box-shadow: 1px 1px 1px 5px #0093d0;
+}
+#galeria .gallery li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#galeria .lightbox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 75px;
+  text-align: center;
+  display: none;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+}
+#galeria .lightbox figure {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  white-space: no-wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+</style>
+
+<script type="text/javascript">
+	$(function (){
+  
+  // Cache vars
+  var $gallery = $('.gallery'),
+      $lightbox = $('.lightbox'),
+      $figure = $('figure'),
+      $close = $('.close');
+  
+  // Dribbble API shizzz
+  var url = '../js/teste.json';
+  
+  // Grab Dribbble popular
+  $.getJSON(url, function(data) {
+
+    $.each(data, function(index, shot) {
+      
+      var thumb = shot.images.teaser,
+          full = shot.images.hidpi || shot.images.normal;
+      
+      var item = $('<li class="item" data-full="'+full+'"><img src="../img/bolos/'+thumb+'" /></li>');
+      
+      $gallery.append(item);
+
+    });
+    
+    // Handle item click
+    $('.item').on('click', function() {
+      
+      var full = $(this).attr('data-full');
+      
+      toggleLightbox(full);
+      
+      console.log(full);
+          
+    });
+    
+    // Toggle lightbox
+    function toggleLightbox(url) {
+      
+      if ($lightbox.is('.open')) {
+        
+        $lightbox
+          .removeClass('open')
+          .fadeOut(200);
+        
+      } else {
+                
+        $figure.css('background-image', 'url(../img/bolos/' + url + ')');
+        $lightbox
+          .addClass('open')
+          .fadeIn(200);
+        
+      }
+      
+    }
+    
+    // Close 
+    $lightbox.on('click', toggleLightbox);
+
+});
+  
+});
+</script>

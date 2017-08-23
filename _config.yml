@@ -76,3 +76,12 @@ portifoilio:
     sobre: Bolo da Elsa do filme Frozen
   - imagem: IMG3.jpeg
     sobre: Bolo da Minnie
+
+
+galeria:
+  - img: IMG1.jpeg
+  - img: IMG2.jpeg
+  - img: IMG6.jpeg
+  - img: IMG4.jpeg
+  - img: IMG5.jpeg
+  - img: IMG3.jpeg
