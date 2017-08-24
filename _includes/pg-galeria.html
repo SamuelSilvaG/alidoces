@@ -117,7 +117,7 @@
       var thumb = shot.images.teaser,
           full = shot.images.hidpi || shot.images.normal;
       
-      var item = $('<li class="item" data-full="'+full+'"><img src="{{ site.baseurl }}/img/bolos/'+thumb+'" /></li>');
+      var item = $('<li class="item" data-full="'+full+'"><img src="{{ site.baseurl }}/../img/bolos/'+thumb+'" /></li>');
       
       $gallery.append(item);
 
@@ -145,7 +145,7 @@
         
       } else {
                 
-        $figure.css('background-image', 'url({{ site.baseurl }}/img/bolos/' + url + ')');
+        $figure.css('background-image', 'url({{ site.baseurl }}/../img/bolos/' + url + ')');
         $lightbox
           .addClass('open')
           .fadeIn(200);
