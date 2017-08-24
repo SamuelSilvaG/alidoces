@@ -117,7 +117,7 @@
       var thumb = shot.images.teaser,
           full = shot.images.hidpi || shot.images.normal;
       
-      var item = $('<li class="item" data-full="'+full+'"><img src="../img/bolos/'+thumb+'" /></li>');
+      var item = $('<li class="item" data-full="'+full+'"><img src="{{ site.baseurl }}/img/bolos/'+thumb+'" /></li>');
       
       $gallery.append(item);
 
