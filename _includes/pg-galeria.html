@@ -107,7 +107,7 @@
       $close = $('.close');
   
   // Dribbble API shizzz
-  var url = '../js/teste.json';
+  var url = '{{ site.baseurl }}/js/teste.json';
   
   // Grab Dribbble popular
   $.getJSON(url, function(data) {
@@ -145,7 +145,7 @@
         
       } else {
                 
-        $figure.css('background-image', 'url(../img/bolos/' + url + ')');
+        $figure.css('background-image', 'url({{ site.baseurl }}/img/bolos/' + url + ')');
         $lightbox
           .addClass('open')
           .fadeIn(200);
