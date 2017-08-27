@@ -44,4 +44,5 @@ Que tal colocar tudo em uma caixa e fazer a festa ali mesmo.
 ![Talheres]({{ site.baseurl }}/img/blog/post2-9.jpg)
 #### Talheres
 
-##### Ah, já ai me esquecendo, gostou da ideia faça um orçamento com a mamãe e faça sua festa na caixa. 
+## Gostou da ideia ?
+### Faça um orçamento com a mamãe você vai adorar. 
