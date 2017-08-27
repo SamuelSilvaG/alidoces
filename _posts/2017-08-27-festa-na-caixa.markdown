@@ -9,7 +9,6 @@ categories: Bolos
 ---
 
 # Comemorando a aniversário do Papai
-## com muito estilo !!!
 
 Papai está fazendo aniversário hoje, ai pensei vamos fazer algo diferente.
 Falei com a mamãe que queria algo simples e reservado, mas que teria que ser especial.
