@@ -3,23 +3,27 @@ layout: default
 ---
 
 <!-- Post Header -->
-<header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header style="background: url({{ site.baseurl }}/img/bg/{{site.headerprincipal}});">
     <div class="container">
-        <div class="row">
+        <div class="row nomeali">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <div class="post-heading">
                 <h1 class="tituloblog">{{ page.title }}</h1>
-                {% if page.subtitle %}
-                <h2 class="subheading">{{ page.subtitle }}</h2>
-                {% endif %}
-                <p class="meta">Postado por {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} em {{ page.date | date: "%B %-d, %Y" }}</p>
-                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
+                <p class="meta">{{ page.subtitle }}</p>
               </div>
             </div>
+            <ul class="list-inline">  
+                {% for social in site.social %}
+                <li>
+                    <a href="{{ social.url }}" target="_blank" class="btn-social btn-outline"><i class="fa iconsheader fa-fw fa-{{ social.title }}"></i></a>
+                </li>                                   
+                {% endfor %}
+            </ul>
+            <a href="#post" target="_blank" class="btn btn-outline bnt-sobre btn-xl page-scroll">Blog</a>
         </div>
     </div>
 </header>
-<hr>
+
 <!-- Post Content -->
 <article>
     <div id="post" class="container">
