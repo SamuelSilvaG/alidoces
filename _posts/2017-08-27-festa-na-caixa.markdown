@@ -8,14 +8,13 @@ header-img: "img/blog/post2-2.jpg"
 categories: Bolos
 ---
 
-# Comemorando a aniversário do Papai
+# Comemorando o aniversário do Papai
 
-Papai está fazendo aniversário hoje, ai pensei vamos fazer algo diferente.
+Papai está fazendo aniversário hoje, aí pensei vamos fazer algo diferente.
 
 Falei com a mamãe que queria algo simples e reservado, mas que teria que ser especial.
 
 Teria que deixar o papai, que é um tanto chato, de boca aberta e se possível tirar umas lagriminhas.
-
 
 Então veio a ideia.
 
@@ -50,5 +49,5 @@ Que tal colocar tudo em uma caixa e fazer a festa ali mesmo.
 ## Gostou da ideia ?
 ### Faça um orçamento com a mamãe você vai adorar. 
 
-#### PS: Tem uns KitKats faltando ? Nem posso dizer quem comeu antes da hora. rsrsrsrsr 
-#### mamãe não disse que tinha que esperar o papai.
+#### PS: Tem uns KitKats faltando?
+#### Mamãe não disse que tinha que esperar.
