@@ -49,3 +49,6 @@ Que tal colocar tudo em uma caixa e fazer a festa ali mesmo.
 
 ## Gostou da ideia ?
 ### Faça um orçamento com a mamãe você vai adorar. 
+
+#### PS: Tem uns KitKats faltando ? Nem posso dizer quem comeu antes da hora. rsrsrsrsr 
+#### mamãe não disse que tinha que esperar o papai.
