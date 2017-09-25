@@ -1,7 +1,7 @@
 ---
 layout:     post
 title: 		"Bolo no pote com Estefano Zaquini"
-subtitle:   "Bolo no pote com Estefano Zaquini"
+subtitle:   "Aula no 10 !!!"
 date:       2017-08-10 09:00:00
 author:     "Alidoces"
 header-img: "img/blog/bolo-pote/post1-2.jpg"
