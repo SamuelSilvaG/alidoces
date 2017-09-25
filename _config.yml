@@ -79,7 +79,7 @@ portifoilio:
 
 
 galeria:
-  - img: IMG1.jpeg
+  - img: ({{ site.baseurl }}/img/blog/bolo-kitkat/7.jpg)
   - img: IMG2.jpeg
   - img: IMG6.jpeg
   - img: IMG4.jpeg
